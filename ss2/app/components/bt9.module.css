@@ -1,0 +1,27 @@
+/* Bt9.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.success {
+    background-color: #d4edda;
+}
+
+.warning {
+    background-color: #fff3cd;
+}
+
+.danger {
+    background-color: #f8d7da;
+}
+
+.primary {
+    background-color: #cce5ff;
+}

@@ -1,0 +1,52 @@
+.bt6-container {
+    // Styles for the main container
+    padding: 20px;
+    background-color: blue;
+    color: #ddd;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+
+    .fa-bomb {
+        margin-right: 10px;
+    }
+
+    .title-text {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+
+    .nav-button {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: black;
+        }
+    }
+}
+
+.user-icon {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    color: blue;
+    .fa-user {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,24 @@
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: blue;
+}
+
+.danger {
+    background-color: red;
+}
+
+.warning {
+    background-color: orange;
+}
+
+.success {
+    background-color: green;
+}
