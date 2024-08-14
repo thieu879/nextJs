@@ -9,6 +9,8 @@ import Bt7 from './components/Bt7'
 import Bt8 from './components/Bt8'
 import Bt9 from './components/Bt9'
 import Bt10 from './components/Bt10'
+import Bt11 from './components/Bt11'
+import Bt12 from './components/Bt12'
 
 export default function page() {
   return (
@@ -33,6 +35,10 @@ export default function page() {
       <Bt9></Bt9>
       <h1>Bt10:</h1>
       <Bt10></Bt10>
+      <h1>Bt11:</h1>
+      <Bt11></Bt11>
+      <h1>Bt12:</h1>
+      <Bt12></Bt12>
     </div>
   )
 }
