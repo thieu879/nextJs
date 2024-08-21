@@ -25,3 +25,4 @@ export async function POST(req: any) {
 
   return NextResponse.json({ message: "Thêm user thành công"});
 }
+
